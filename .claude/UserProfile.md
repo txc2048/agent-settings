@@ -16,5 +16,5 @@ This profile defines user preferences and operational rules to optimize AI colla
 - **Atomicity**: Ensure each commit addresses exactly one single task. Never mix unrelated changes.
 
 ## Coding Styles
-- **Line Breaks**: Minimize line breaks. Only wrap when a line exceeds 200 columns; wrap at as few points as possible instead of one-argument-per-line.
+- **Line Breaks**: Minimize line breaks without sacrificing readability; 200 columns is the upper limit. Wrapping is acceptable where a single line would hurt readability, especially for constant definitions written as long `key=value` lists, declarations/calls with more than 5 parameters, or declarations/calls with 5 or fewer parameters but many defaults/modifiers or long names. Otherwise keep related code together and wrap at as few points as possible, not one argument per line.
 - **Language**: Keep code (identifiers, comments, docstrings) in English even when the conversation is in Chinese; Chinese domain terms without an English equivalent are allowed.
